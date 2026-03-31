@@ -1,3 +1,4 @@
+/*
 provider "aws" {
   region = "us-east-1"
 }
@@ -20,3 +21,4 @@ module "asg" {
   alb_sg_id        = module.alb.alb_sg_id
   target_group_arn = module.alb.target_group_arn
 }
+*/
